@@ -1,2 +1,2 @@
 # my
- personal_website
+ personal website
