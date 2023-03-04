@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-export const commandList = [
+export const INFO = [
     "COMMANDS:      DESCRIPTION:",
     <br key={uuidv4()} />,
     "brylle         About me",
@@ -12,3 +12,5 @@ export const commandList = [
     "clear          Clear the terminal",
     <br key={uuidv4()} />,
 ];
+
+export const ALL_COMMANDS = [];
