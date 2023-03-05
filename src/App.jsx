@@ -9,6 +9,8 @@ function App() {
    const { formInput, inputChangeHandler, clearFormData } = useForm("");
    const { display } = usePrompt(formInput);
 
+   console.log(display);
+
    const [isLoading, setIsLoading] = React.useState(true);
 
    return (

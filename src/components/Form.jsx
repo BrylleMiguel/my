@@ -13,7 +13,7 @@ export default function Form({ formInput, inputChangeHandler, clearFormData }) {
          }}
       >
          <div className="flex">
-            <span className="inline-flex items-center pr-3 text-gray-100">
+            <span className="inline-flex items-center pr-3">
                meow@me-youser:~%
             </span>
             <input

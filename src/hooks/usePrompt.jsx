@@ -54,7 +54,7 @@ export default function usePrompt(_input) {
 
                default:
                   promptArray(
-                     `command not found: ${_input}, type "info" for available commands`,
+                     `command not found: "${_input}", type "info" for available commands`,
                      "red",
                      <MdError />
                   );
@@ -84,7 +84,7 @@ export default function usePrompt(_input) {
                   {_icon}
                </div>
             ),
-            message: <div className="text-gray-100">{_message}</div>,
+            message: _message,
          },
       ]);
    }
